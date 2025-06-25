@@ -629,7 +629,17 @@ const App: React.FC = () => {
                                 </a>
                             </div>
                             <div style={{ color: "rgba(0,0,0,0.3)" }}>
-                                网页制作：bilibili@アポカリス
+                                网页制作：bilibili@
+                                <a
+                                    href={"https://space.bilibili.com/940790"}
+                                    target='_blank'
+                                    rel="noreferrer"
+                                    style={{
+                                        color: "rgba(0,0,0,0.5)",
+                                        textDecoration: "underline"
+                                    }}>
+                                    アポカリス
+                                </a>
                             </div>
                         </div>
                     </Row>
